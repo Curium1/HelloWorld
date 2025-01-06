@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Home route
 app.get('/', (req, res) => {
-  res.send('Welcome to my simple Express server!');
+  res.send('Welcome Patrick, to my simple Express server!');
 });
 
 // Example API route
